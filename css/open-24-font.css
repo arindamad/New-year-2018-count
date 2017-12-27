@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Open 24 Display St';
-    src: url('../fonts/Open24DisplaySt.eot');
-    src: url('../fonts/Open24DisplaySt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Open24DisplaySt.woff2') format('woff2'),
-        url('../fonts/Open24DisplaySt.woff') format('woff'),
-        url('../fonts/Open24DisplaySt.ttf') format('truetype'),
-        url('../fonts/Open24DisplaySt.svg#Open24DisplaySt') format('svg');
+    src: url('../font/Open24DisplaySt.eot');
+    src: url('../font/Open24DisplaySt.eot?#iefix') format('embedded-opentype'),
+        url('../font/Open24DisplaySt.woff2') format('woff2'),
+        url('../font/Open24DisplaySt.woff') format('woff'),
+        url('../font/Open24DisplaySt.ttf') format('truetype'),
+        url('../font/Open24DisplaySt.svg#Open24DisplaySt') format('svg');
     font-weight: normal;
     font-style: normal;
 }
