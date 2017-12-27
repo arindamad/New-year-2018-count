@@ -1,0 +1,108 @@
+
+body{
+  background:#000;
+}
+.container{
+  margin: auto;
+  color:#00ff00;
+}
+
+
+.time-content div{
+  padding: 30px ;
+  background:#00ff00;
+  border-radius: 60px 60px;
+  font-size: 100px;
+  font-family: 'Open 24 Display St';
+}
+
+.time-content .days{
+  background: #000;
+}
+.time-content .hours{
+  background: #000;
+}
+.time-content .minutes{
+  background: #000;
+}
+.time-content .seconds{
+  background: #000;
+}
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  
+}
+.header .container div  span{
+  font-size: 40px;
+}
+.container div a{
+  text-decoration: none;
+  padding: 10px 50px;
+  background:#00ff00;
+  font-size: 30px;
+  border-radius: 10px;
+  color:#000;
+  text-transform: uppercase;
+}
+.container div a:hover{
+  background: #005c00;
+  color:#00ff00;
+}
+
+
+/**for moblie and tablets*/
+
+@media only screen and (max-width: 640px){
+  body{
+    background: #00eeff;
+  }
+  .time-content div{
+        padding:10px;
+        font-size: 22px;
+        background:#05455f;
+      }
+  h1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+  }
+  .header h1, h1{
+     border-radius: 10px;
+    color:#05455f;
+   
+  }
+  .time-content .days{
+    background: #6DDDF2;
+  }
+  .time-content .hours{
+    background: #C1F0F4;
+  }
+  .time-content .minutes{
+    background: #80C4AE;
+  }
+  .time-content .seconds{
+    background: rgb(32, 207, 255);
+  }
+  .container{
+    margin: auto;
+    color:#000;
+  }
+  .header .container div  span{
+    font-size: 15px;
+    color:rgb(3, 53, 82);
+    text-transform: uppercase;
+  }
+  /*Click Me Button*/
+  .container div a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background:#05455f;
+    font-size: 17px;
+    border-radius: 10px;
+    color:#00eeff;
+    text-transform: uppercase;
+  }
+ 
+}
